@@ -18,6 +18,7 @@ def detail(request, pk):
                                   ])
 
     form = CommentForm()
+    #test
     # 获取全部评论
     comment_list = post.comment_set.all()
 
